@@ -1,7 +1,7 @@
 import React from 'react';
 import './WonderBox.scss';
 import WonderBox from './WonderBox.tsx';
-import { pageHeadlineSignal } from '../state.ts';
+
 const Home = () => {
   return (
     <div className="home">
@@ -27,31 +27,14 @@ const Home = () => {
 
       <div className="home-main">
         <div className="top-gradient">
-          <h3>Good morning, Jessica 👋</h3>
-          <h2 dangerouslySetInnerHTML={{ __html: pageHeadlineSignal.value }}></h2>
-          
-          <WonderBox />
-        </div>
+          <h2>Your Library</h2>
 
-        <div className="doctypes">
-          <ul>
-            <li><img src="images/doctypes/0.png" alt="" />Instagram<br />post</li>
-            <li><img src="images/doctypes/1.png" alt="" />Social</li>
-            <li><img src="images/doctypes/2.png" alt="" />Print</li>
-            <li><img src="images/doctypes/3.png" alt="" />Video</li>
-            <li><img src="images/doctypes/4.png" alt="" />Whiteboard</li>
-            <li><img src="images/doctypes/5.png" alt="" />Background<br />remover</li>
-            <li><img src="images/doctypes/6.png" alt="" />Photo editor</li>
-            <li><img src="images/doctypes/7.png" alt="" />Custom size</li>
-            <li><img src="images/doctypes/8.png" alt="" />Upload</li>
-            <li><img src="images/doctypes/9.png" alt="" />Add</li>
-          </ul>
+          <WonderBox />
         </div>
 
         <div className="designs">
           <div className="first">
-            <h3 className="title">Your first design!</h3>
-            <img src="images/designs/0.png" alt="" />
+            <h3 className="title">Starred for Your Library</h3>
           </div>
 
           <div className="grid">
