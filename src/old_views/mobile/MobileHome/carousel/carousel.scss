@@ -1,0 +1,34 @@
+// @import '~style/desktop/global-imports.scss';
+
+.carousel {
+  // @include fillContainer();
+  height: 20%;
+  width: 100%;
+  bottom: 60px;
+  // position: relative;
+  // overflow: hidden;
+
+  // position: absolute;
+  position: fixed;
+  background-color: #fff;
+  // perspective: 600px;
+  z-index: 222;
+  border-top: 1px solid #eeeeef;
+  box-sizing: border-box;
+}
+
+.itemList {
+  width: 100%;
+  height: 50vw;
+  position: absolute;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  top: 0%;
+
+  .item {
+    display: none;
+  }
+}

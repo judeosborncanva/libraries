@@ -1,0 +1,16 @@
+// @import '~style/desktop/global-imports.scss';
+
+.root {
+  background-color: rgba(0, 255, 255, 0.2);
+
+  position: absolute;
+
+  width: 45vw; //40vw;
+  height: 24vw;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
